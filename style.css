@@ -1,0 +1,54 @@
+body{
+        background-color:#e6f7ff;
+}
+
+div {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100;
+}
+
+h1{
+    font-family : Helvetica, sans-serif;
+    color:#002233;
+    font-size:30px;
+}
+
+#app{
+    text-align:center;
+}
+
+input{
+    border:1px solid darkblue;
+    background-color: #cceeff;
+    height: 25px;
+    width:200px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+#add{
+    height:20px;
+    width:20px;
+}
+
+#del{
+    height: 15px; 
+    width:15px;
+    overflow: visible; 
+    margin-left: 20px;
+    margin-bottom:1px;
+}
+
+ul{
+    font-family : Helvetica, sans-serif;
+    color:#002233;
+    font-size:25px;
+    align-items:left;
+    text-align: left;
+}
